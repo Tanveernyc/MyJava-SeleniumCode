@@ -10,9 +10,10 @@ import page.LoginPage;
 import util.BrowserFactory;
 import util.Xls_Reader;
 
+
 public class AddContractTest {
 	
-	Xls_Reader reader = new Xls_Reader("/Users/riyad/eclipse-workspace/TechfiosTestNG/Data/TestData.xlsx");
+	Xls_Reader reader = new Xls_Reader("/Users/riyad/git/MyJava-SeleniumCode/TechfiosTestNG/Data/TestData.xlsx");
 	String Email = reader.GetCellData("sheet1", "Email", 2);
 	String Password = reader.GetCellData("sheet1", "Password", 2);
 	String FullName = reader.GetCellData("sheet1", "Name", 2);
